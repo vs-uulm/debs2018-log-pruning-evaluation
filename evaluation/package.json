@@ -1,17 +1,17 @@
 {
     "name": "evaluation",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Evaluation of various event log pruning approaches.",
     "keywords": [
         "event sourcing",
         "event processing",
         "log pruning"
     ],
-    "homepage": "https://github.com/vs-uulm/log-pruning-evaluation",
+    "homepage": "https://github.com/vs-uulm/debs2018-log-pruning-evaluation",
     "bugs": {
-        "url": "https://github.com/vs-uulm/log-pruning-evaluation/issues"
+        "url": "https://github.com/vs-uulm/debs2018-log-pruning-evaluation/issues"
     },
-    "repository": "github:vs-uulm/log-pruning-evaluation.git",
+    "repository": "github:vs-uulm/debs2018-log-pruning-evaluation.git",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,8 +1,8 @@
 # Log Pruning in Distributed Event-sourced Systems
 
-[![DOI](https://img.shields.io/badge/doi-TODO--UNDER--SUBMISSION-blue.svg)](https://github.com/vs-uulm/log-pruning-evaluation) [![GitHub license](https://img.shields.io/github/license/vs-uulm/log-pruning-evaluation.svg)](https://github.com/vs-uulm/log-pruning-evaluation/blob/master/LICENSE)
+[![DOI](https://img.shields.io/badge/doi-10.1145/3210284.3219767-blue.svg)](https://doi.org/10.1145/3210284.3219767) [![GitHub license](https://img.shields.io/github/license/vs-uulm/debs2018-log-pruning-evaluation.svg)](https://github.com/vs-uulm/debs2018-log-pruning-evaluation/blob/master/LICENSE)
 
-Benjamin Erb, Dominik Meißner, Ferdinand Ogger, and Frank Kargl. 2018. Poster: Log Pruning in Distributed Event-sourced Systems. Submitted.
+Benjamin Erb, Dominik Meißner, Ferdinand Ogger, and Frank Kargl. 2018. Poster: Log Pruning in Distributed Event-sourced Systems. In DEBS '18: The 12th ACM International Conference on Distributed and Event-based Systems, June 25--29, 2018, Hamilton, New Zealand. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3210284.3219767
 
 This repository contains source code artifacts, experiments, and results.
 
