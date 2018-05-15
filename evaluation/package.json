@@ -1,0 +1,33 @@
+{
+    "name": "evaluation",
+    "version": "1.0.1",
+    "description": "Evaluation of various event log pruning approaches.",
+    "keywords": [
+        "event sourcing",
+        "event processing",
+        "log pruning"
+    ],
+    "homepage": "https://github.com/vs-uulm/log-pruning-evaluation",
+    "bugs": {
+        "url": "https://github.com/vs-uulm/log-pruning-evaluation/issues"
+    },
+    "repository": "github:vs-uulm/log-pruning-evaluation.git",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "./evaluate.sh"
+    },
+    "author": "Dominik Meißner <dominik.meissner@uni-ulm.de> (https://uni-ulm.de/in/vs/meissner)",
+    "contributors": [
+        "Dominik Meißner <dominik.meissner@uni-ulm.de> (https://uni-ulm.de/in/vs/meissner)",
+        "Benjamin Erb <benjamin.erb@uni-ulm.de> (https://uni-ulm.de/in/vs/erb)"
+    ],
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "csv-parser": "^1.12.1",
+        "papaparse": "^4.4.0",
+        "prob.js": "^1.0.6",
+        "random-js": "^1.0.8"
+    }
+}

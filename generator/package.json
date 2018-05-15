@@ -1,0 +1,31 @@
+{
+    "name": "generator",
+    "version": "1.0.1",
+    "description": "Workload generator for the event log pruning evaluation.",
+    "keywords": ["event sourcing", "event processing", "log pruning"],
+    "homepage": "https://github.com/vs-uulm/log-pruning-evaluation",
+    "bugs": {
+        "url": "https://github.com/vs-uulm/log-pruning-evaluation/issues"
+    },
+    "repository": "github:vs-uulm/log-pruning-evaluation.git",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "./generate.sh"
+    },
+    "author": "Dominik Meißner <dominik.meissner@uni-ulm.de> (https://uni-ulm.de/in/vs/meissner)",
+    "contributors": [
+        "Dominik Meißner <dominik.meissner@uni-ulm.de> (https://uni-ulm.de/in/vs/meissner)",
+        "Benjamin Erb <benjamin.erb@uni-ulm.de> (https://uni-ulm.de/in/vs/erb)"
+    ],
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "dummy-json": "^2.0.0",
+        "fast-json-patch": "^2.0.6",
+        "prob.js": "^1.0.6",
+        "progress": "^2.0.0",
+        "quick-lru": "^1.1.0",
+        "random-js": "^1.0.8"
+    }
+}

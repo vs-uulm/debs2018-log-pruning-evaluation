@@ -1,0 +1,11 @@
+metadata: {}
+pipelines:
+  pruning:
+    envs:
+    - host
+    path: pipelines/pruning
+    stages:
+    - setup
+    - run
+    - post-run
+    - teardown
