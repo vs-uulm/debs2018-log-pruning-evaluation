@@ -45,6 +45,7 @@ module.exports = (config) => {
     const jsonHelpers = {
         distribution: () => dummyjson.utils.randomArrayItem(['heavy-tail', 'uniform']),
         text: (min, max) => dummyjson.helpers.lorem(dummyjson.utils.randomInt(min, max), {
+            hash: {},
             data: {
                 root: {
                     lorem: dummyjson.mockdata.lorem
